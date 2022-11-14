@@ -1,0 +1,21 @@
+body {
+  margin: 0.5rem;
+}
+
+textarea {
+  width: 500px;
+  height: 130px;
+}
+
+.inputGroup {
+  margin-bottom: 0.5rem;
+}
+
+label {
+  width: 15rem;
+  display: inline-block;
+}
+
+.dBlock {
+  display: block;
+}
