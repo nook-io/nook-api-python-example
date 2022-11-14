@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "myapp"
+version = "0.1.0"
+description = ""
+authors = ["Johnny Deuss <johnny@nook.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.85.0"
+pydantic = "^1.10.2"
+Authlib = "^1.1.0"
+requests = "^2.28.1"
+uvicorn = "^0.18.3"
+httpx = "^0.23.0"
+itsdangerous = "^2.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.981"
+black = {version = "^22.8.0", allow-prereleases = true}
+types-requests = "^2.28.11.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
